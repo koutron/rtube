@@ -34,12 +34,15 @@ class App extends Component {
 		}, 300);
 		return (
 			<div className="wrapper">
-				<SearchBar onSearchTermChange={videoSearch} />
-				<VideoDetail video={this.state.selectedVideo} />
-				<VideoList
-					onVideoSelect={selectedVideo => this.setState({ selectedVideo })}
-					videos={this.state.videos}
-				/>
+				<div className="content">
+					<h1>REACTUBE</h1>
+					<SearchBar onSearchTermChange={videoSearch} />
+					<VideoDetail video={this.state.selectedVideo} />
+					<VideoList
+						onVideoSelect={selectedVideo => this.setState({ selectedVideo })}
+						videos={this.state.videos}
+					/>
+				</div>
 			</div>
 		);
 	}

@@ -1,3 +1,9 @@
+body {
+	font-family: Quicksand;
+	background-color: #e7e7e7;
+	margin: 0;
+}
+
 .search-bar {
 	margin: 20px;
 	text-align: center;
@@ -20,12 +26,23 @@
 
 .list-group-item {
 	cursor: pointer;
+	height: 101.5px;
 }
 
 .list-group-item:hover {
 	background-color: #eee;
 }
 
-.list-group {
-	height: 100px;
+h1 {
+	text-align: center;
+	font-size: 50px;
+	margin: 0;
+}
+
+.container {
+	background-color: #ffffff;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }

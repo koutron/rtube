@@ -1,17 +1,31 @@
 {
-  "name": "rtube",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0",
-    "react-scripts": "1.0.14",
-    "youtube-api-search": "0.0.5"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
-  }
+	"name": "rtube",
+	"version": "0.1.0",
+	"private": true,
+	"dependencies": {
+		"express": "^4.16.2",
+		"react": "^16.0.0",
+		"react-dom": "^16.0.0",
+		"react-scripts": "1.0.14",
+		"youtube-api-search": "0.0.5"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"build": "react-scripts build",
+		"test": "react-scripts test --env=jsdom",
+		"eject": "react-scripts eject"
+	},
+	"main": "server.js",
+	"devDependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/koutron/rtube.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/koutron/rtube/issues"
+	},
+	"homepage": "./",
+	"description": ""
 }
